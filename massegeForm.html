@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>massage form</title>
+</head>
+<body>
+    <form action="action">
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name" placeholder="Enter Name">
+        </div>
+        <br>
+        <div>
+            <label for="sex">Sex : </label>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+        <div>
+            <label for="contry"> Contry : </label>
+            <select name="contry" id="contry">
+                <option value="ind">India</option>
+                <option value="Us">United State</option>
+                <option value="pks">Pakistan</option>
+                <option value="np">Nepal</option>
+                <option value="srl">Srilanka</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="feedback">Massege : </label><br>
+            <textarea name="feedback" id="feedback" rows="5" cols="30"></textarea>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="check" name="check">
+            <label for="check">Agree?</label>
+        </div>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
